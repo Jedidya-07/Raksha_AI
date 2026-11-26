@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from PIL import Image, ImageDraw
 import torch
-from detectors.image_detector import DEVICE, TRANSFORM
+from detector.image_detector import DEVICE, TRANSFORM
 
 FACE_CASCADE = cv2.CascadeClassifier(
     cv2.data.haarcascades + "haarcascade_frontalface_default.xml"
