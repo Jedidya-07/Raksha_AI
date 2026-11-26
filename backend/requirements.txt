@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+reportlab
+torch
+torchvision
+pillow
+numpy
+opencv-python-headless
+librosa
+soundfile
+scikit-learn
+joblib
+matplotlib
